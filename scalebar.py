@@ -5,7 +5,7 @@ class AnchoredScaleBar(AnchoredOffsetbox):
     def __init__(self, transform, sizex=0, sizey=0, labelx=None, labely=None,
                  loc=7, pad=0.1, borderpad=0.1, sep=2, prop=None, **kwargs):
         """
-        Draw a horizontal and/or vertical  bar with the size in data coordinate
+        Modified, draw a horizontal and/or vertical  bar with the size in data coordinate
         of the give axes. A label will be drawn underneath (center-aligned).
  
         - transform : the coordinate frame (typically axes.transData)
