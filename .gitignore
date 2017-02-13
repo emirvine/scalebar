@@ -1,0 +1,13 @@
+*.pyc
+Thumbs.db
+.DS_Store
+.idea/
+_build
+build
+dist
+*.eggs/
+*.egg-info/
+.ipynb_checkpoints/
+.cache/
+cache/
+plots/
